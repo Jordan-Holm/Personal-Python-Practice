@@ -19,13 +19,14 @@ def sort_characters():
         if 'Level' in line:
             character_list.append(character_dict.copy())
             character_dict = {'Name': '', 'Player': '', 'Class': '', 'Sub-Class': '', 'Race': '', 'Level': ''}
-
-        
-    # for character in character_list:
-    #     for character_key, character_value in character.items():
-    #         if character_key == "Level":
-    #             print(f"{character_key}: {character_value}\n")
-    #         else:
-    #             print(f"{character_key}: {character_value}")
     character_file.close()
     return character_list
+
+def view_sorted_list():
+    character_list = sort_characters()
+    for character in character_list:
+        for character_key, character_value in character.items():
+            if character_key == "Level":
+                print(f"{character_key}: {character_value}\n")
+            else:
+                print(f"{character_key}: {character_value}")
