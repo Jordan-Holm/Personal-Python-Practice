@@ -1,0 +1,30 @@
+Name: Shayra
+Player: Crunch_Captain
+Class: Warlock
+Sub-Class: The Fiend
+Race: Tiefling
+Level: 12
+Name: Arabella
+Player: KatyaKorpse
+Class: Cleric
+Sub-Class: Life Domain
+Race: Elf
+Level: 11
+Name: Dio
+Player: Cloudz07
+Class: Ranger
+Sub-Class: Hunter
+Race: Half-Elf
+Level: 11
+Name: John
+Player: MirakkIV
+Class: Fighter
+Sub-Class: War Domain
+Race: Human
+Level: 11
+Name: Saline-Iris
+Player: Brooklynnmnorman
+Class: Rogue
+Sub-Class: Thief
+Race: Elf
+Level: 12
