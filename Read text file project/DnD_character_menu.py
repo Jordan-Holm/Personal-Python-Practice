@@ -12,9 +12,9 @@ def menu():
 
     )
     user_input = int(input())
-    determine_user_input(user_input)
+    determine_user_input()
 
-def determine_user_input(user_input):
+def determine_user_input():
     match user_input:
         case 1:
             print(view_sorted_list())
