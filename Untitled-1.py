@@ -1,4 +1,5 @@
 class_grades = [[0,53,84], [33,87,79], [75,100,94]]
+students = ["John", "Susan", "Bob"]
 
 for student_grades in class_grades:
     test_number = 1
